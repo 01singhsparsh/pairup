@@ -426,7 +426,7 @@ Set all `NEXT_PUBLIC_*` environment variables in the Vercel dashboard.
 
 ### Database → MongoDB Atlas
 1. Create a free M0 cluster at [mongodb.com/atlas](https://www.mongodb.com/atlas)
-2. Whitelist `0.0.0.0/0` for Railway (or use a static IP)
+2. Whitelist `0.0.0.0/0` for Railway (or can use a static IP)
 3. Create a database user and copy the connection string to `MONGODB_URI`
 
 ---
